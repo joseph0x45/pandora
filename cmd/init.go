@@ -5,12 +5,12 @@ import (
 )
 
 var init_cmd = &cobra.Command{
-    Use: "init",
-    Run: func(cmd *cobra.Command, args []string) {
+	Use: "init",
+	Run: func(cmd *cobra.Command, args []string) {
 
-    },
+	},
 }
 
-func init(){
-    root_cmd.AddCommand(init_cmd)
+func init() {
+	root_cmd.AddCommand(init_cmd)
 }
