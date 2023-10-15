@@ -1,9 +1,9 @@
 package main
 
 import (
-    "pandora/cmd"
+	"pandora/cmd"
 )
 
-func main(){
-    cmd.Execute()
+func main() {
+	cmd.Execute()
 }
